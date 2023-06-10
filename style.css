@@ -1,0 +1,51 @@
+.bgimg{
+    height: 60vh;
+    background-image: url(bestami-sarikaya-kdXzw0fd0TU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.col .heading1 {
+   display: flex;
+   justify-content: center;
+   margin-top: 150px;
+    color: white;
+    font-size: 4rem;
+
+}
+.col .para1{
+    display: flex;
+   justify-content: center;
+   margin-top: 50px;
+    color: white;
+    font-size: 2rem;
+}
+#contact>.container>.row>.col{
+    border: 2px solid black;
+}
+@media (max-width:850px){
+    .col .heading1{
+        font-size: 2.5rem;
+    }
+    .col .para1{
+        font-size: 1.2rem;
+    }
+}
+.imageAboutPage {
+    width: 100%;
+}
+
+#contact>.container>.row{
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    text-align: center;
+    font-size: 30px;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+}
+.carousel-control-next-icon{
+    background-color: black;
+}
